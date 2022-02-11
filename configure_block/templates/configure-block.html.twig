@@ -1,0 +1,10 @@
+<div{{ attributes }}>
+  <h1>23</h1>
+  {% for key,value in social_info %}
+    <h3>213123123</h3>
+    {% for key1,value1 in value %}
+      <a href="{{ value1.url }}">{{ value1.label }}</a>
+    {% endfor %}
+  {% endfor %}
+</div>
+

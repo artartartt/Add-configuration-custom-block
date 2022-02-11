@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function configure_block_theme() {
+// for twig
+//  return [
+//    'configure-block' => [
+//      'variables' => [
+//        'social_info' => [],
+//      ],
+//    ],
+//  ];
+}
